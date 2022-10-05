@@ -1,0 +1,141 @@
+span{
+    color: black;
+    font-size: 17px;
+}
+a{
+    float: right;
+    background-color: grey;
+}
+label{
+    color: black;
+    font-size: 17px;
+}
+ul {
+    list-style-type: none;
+    padding: 1%;
+    margin: 2px;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+.topnav a, h1 {
+    float: left;
+    color: #f2f2f2;
+    background-color: #333333;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav input[type=text] {
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 8px;
+    font-size: 17px;
+}
+
+.topnav h1 {
+    text-emphasis: ivory;
+    color: whitesmoke;
+    font-size: 23px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #ddd;
+    color: white;
+}
+.search-group{
+    float: right;
+    padding-right: 1rem;
+}
+
+.btn {
+    background-color: inherit;
+    padding: 8px 14px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+.warning {
+    color: orange;
+    border: solid orange 1px;
+}
+.btn:hover {background: #eee;}
+
+.card-group{
+    padding: 1rem;
+}
+
+.login{
+    width: 382px;
+    margin: auto;
+    border-radius: 15px ;
+
+}
+.login h2{
+    text-align: center;
+    color: black;
+    padding: 20px;
+}
+
+.primary{
+    background-color: blue;
+    color: #eeeeee;
+    border: none;
+    border-radius: 3px;
+    margin: 1rem;
+}
+
+.item-container{
+    padding: 10%;
+    display: flex;
+}
+.item-container h2, h4, h5, p {
+    padding-left: 1rem;
+}
+.comment{
+    padding: 8px;
+}
+.left-col{
+    width: 200rem;
+}
+.search-res{
+    margin: 1%;
+    background-color: gray;
+    padding: 1%;
+}
+.search-res h4{
+    color: orange;
+}
+#Uname{
+    width: 400px;
+    height: 30px;
+    border: solid black 1px;
+    padding-left: 8px;
+    border-radius: 3px;
+
+}
+#Pass{
+    width: 400px;
+    height: 30px;
+    border: solid black 1px;
+    padding-left: 8px;
+    border-radius: 3px;
+
+}
+#log{
+    width: 500px;
+    height: 30px;
+    border: solid black 1px;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: blue;
+}
